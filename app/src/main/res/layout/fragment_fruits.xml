@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#ff8ee9"
+    android:layout_height="match_parent"
+    tools:context="com.jimmy.centralmarket.FruitsFragment"
+    android:weightSum="1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+
+                android:textColor="#141a01"
+                android:text="You are welcome to Mbarara central market. dear customer you are reminded that you can take fruits of your choice found at right bottom corner as you entr through the main gate." />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="20sp"
+                android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Apples and oranges"
+                android:textSize="15sp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Grapes"
+                android:layout_marginLeft="50sp"
+                android:textSize="15sp"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_width="150sp"
+                    android:src="@drawable/ft1"
+                    android:layout_marginLeft="5sp"
+                    android:layout_height="150sp" />
+                <ImageView
+                    android:layout_width="200sp"
+                    android:layout_marginLeft="5sp"
+                    android:src="@drawable/frt3"
+                    android:layout_height="150sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="20sp"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="80sp"
+                    android:text="Carrots"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Pineapples"
+                    android:layout_marginLeft="80sp"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="200sp"
+                android:src="@drawable/frt4"
+                android:layout_height="150sp" />
+            <ImageView
+                android:layout_width="200sp"
+                android:layout_marginLeft="5sp"
+                android:src="@drawable/frt5"
+                android:layout_height="150sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

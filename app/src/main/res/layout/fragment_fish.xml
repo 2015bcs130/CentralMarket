@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#ff8ee9"
+    tools:context="com.jimmy.centralmarket.FishFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+
+                android:textColor="#141a01"
+                android:text="Get the best fish with proteins from Mbarara central market. there is all kinds of fish at affordable prices and in all quantities.
+    come one come all" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="20sp"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Fish one"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Fish two"
+                    android:layout_marginLeft="150sp"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150sp"
+                    android:src="@drawable/fi1"
+                    android:layout_marginLeft="5sp"
+                    android:layout_height="150sp" />
+                <ImageView
+                    android:layout_width="200sp"
+                    android:layout_marginLeft="5sp"
+                    android:src="@drawable/fi2"
+                    android:layout_height="150sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="20sp"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="80sp"
+                    android:text="Fish three"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Fish four"
+                    android:layout_marginLeft="80sp"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="200sp"
+                    android:src="@drawable/fi3"
+                    android:layout_height="150sp" />
+                <ImageView
+                    android:layout_width="200sp"
+                    android:layout_marginLeft="5sp"
+                    android:src="@drawable/fi4"
+                    android:layout_height="150sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
